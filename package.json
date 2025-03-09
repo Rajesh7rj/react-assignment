@@ -7,12 +7,17 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "deploy": "npm run build && npm run export && gh-pages -d out"
+    "deploy": "next build && gh-pages -d out"
   },
   "dependencies": {
-    "next": "14.2.24",
-    "react": "^18",
-    "react-dom": "^18"
+    "@types/gsap": "^3.0.0",
+    "date-fns": "^4.1.0",
+    "framer-motion": "10.16.4",
+    "gsap": "^3.12.7",
+    "lucide-react": "^0.479.0",
+    "next": "^15.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
